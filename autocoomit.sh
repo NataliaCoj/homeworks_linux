@@ -1,5 +1,7 @@
 #!/bin/bash
+USER=Natalia
 
+echo Hello $USER
 for run in {1..10}
 do
  date >> README.md
